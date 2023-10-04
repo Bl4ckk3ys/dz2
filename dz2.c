@@ -7,9 +7,9 @@ int main()
     int n1, n2, null;
     double ans;
     scanf("%d %d", &n1, &n2);
-    ans = ((abs(n1)+abs(n2)))/2;
+    ans = (abs(n1)+abs(n2))/2;
     printf("\n%lf", ans);
-    ans = ((pow(n1,2)+pow(n2,2)))/2;
+    ans = (pow(n1,2)+pow(n2,2))/2;
     printf("\n%lf", ans);
 
     
