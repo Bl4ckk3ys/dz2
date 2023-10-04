@@ -4,11 +4,13 @@
 //2.  Даны два числа. Найти среднее арифметическое их квадратов и среднее арифметическое их модулей. 
 int main()
 {   
-    int n1, n2, ans, null;
+    int n1, n2, null;
+    double ans;
     scanf("%d %d", &n1, &n2);
-    printf("\n%d",((abs(n1)+abs(n2))/2));
-    ans = ((pow(n1,2)+pow(n2,2))/2);
-    printf("\n%d", ans);
+    ans = ((abs(n1)+abs(n2)))/2;
+    printf("\n%lf", ans);
+    ans = ((pow(n1,2)+pow(n2,2)))/2;
+    printf("\n%lf", ans);
 
     
     scanf("\n%d",&null);
